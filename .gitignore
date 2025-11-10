@@ -1,0 +1,43 @@
+# --- PYTHON BÁSICO ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+
+# --- AMBIENTES ---
+.venv/
+.env/
+env/
+venv/
+
+# --- JUPYTER ---
+.ipynb_checkpoints/
+
+# --- DADOS (recomendado ignorar brutos/derivados locais) ---
+data/**
+!data/README.md
+# Se você quiser versionar UMA AMOSTRA pequena para testes:
+#   coloque a amostra em data/sample/ e descomente a linha abaixo:
+# !data/sample/**
+
+# --- RELATÓRIOS/EXPORTS GERADOS (opcional ignorar) ---
+reports/**/*.html
+reports/**/*.pdf
+exports/**
+
+# --- IMAGENS (mantenha as que entram no README/Relatório; ignore brutas) ---
+images/raw/**
+# Se quiser manter tudo, comente a linha acima.
+
+# --- IDE/SO ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- SEGREDOS ---
+*.env

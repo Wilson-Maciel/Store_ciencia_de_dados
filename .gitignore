@@ -17,12 +17,11 @@ venv/
 # --- JUPYTER ---
 .ipynb_checkpoints/
 
-# --- DADOS (recomendado ignorar brutos/derivados locais) ---
-data/**
-!data/README.md
-# Se você quiser versionar UMA AMOSTRA pequena para testes:
-#   coloque a amostra em data/sample/ e descomente a linha abaixo:
-# !data/sample/**
+# --- DADOS (configuração para PORTFÓLIO: inclui os CSVs brutos) ---
+# data/raw/ é incluído para garantir a reprodutibilidade imediata.
+data/processed/  # Ignora a pasta de dados gerados (que seu código cria)
+data/*.zip       # Ignora arquivos zipados
+data/*.rar       # Ignora arquivos rar
 
 # --- RELATÓRIOS/EXPORTS GERADOS (opcional ignorar) ---
 reports/**/*.html

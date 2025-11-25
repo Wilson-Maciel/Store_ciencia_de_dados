@@ -292,3 +292,21 @@ Projeto desenvolvido por **Wilson Maciel**
 
 - LinkedIn: <https://www.linkedin.com/in/wilsonmaciel/>
 - GitHub: <https://github.com/Wilson-Maciel>
+
+
+### Limitações dos dados (e o que faria em um cenário real)
+
+O dataset do desafio não traz informações de **custo** (por exemplo, custo do produto ou custo logístico).
+Por isso, não foi possível calcular **margem de lucro**, que é um dos KPIs mais importantes em projetos reais de varejo.
+
+Em um contexto de negócio real, eu incluiria no mínimo:
+
+- custo unitário por produto,
+- custo logístico (frete real, não só valor cobrado),
+- despesas fixas / variáveis por loja.
+
+Com esses dados, eu calcularia:
+
+- lucro e margem por venda,
+- margem por produto, categoria e loja,
+- e poderia priorizar não só a loja que **mais fatura**, mas a que **mais gera lucro**.
